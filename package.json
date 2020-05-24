@@ -1,10 +1,12 @@
 {
   "name": "ring_string",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Convert [a-zA-Z0-9] in a string to their Unicode ring counterparts",
   "main": "dist/es6/rs.js",
   "scripts": {
     "typescript": "tsc --build tsconfig.json",
+    "clean": "rimraf -f dist/",
+    "build": "npm run clean && npm run typescript",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {

@@ -1,4 +1,6 @@
 
-function ring(_str: string) { return 'ring!'; }
+function ring(str: string) {
+  return 'ring!' + str;
+}
 
 export { ring };
