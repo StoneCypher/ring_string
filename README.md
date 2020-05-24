@@ -21,7 +21,10 @@ undefined
 > rs.to_rings('abc, def');
 'ⓐⓑⓒ, ⓓⓔⓕ'
 
-> rs.to_rings('abc, def! ghi: 123 JKL');
+> const longer = 'abc, def! ghi: 123 JKL';
+undefined
+
+> rs.to_rings(longer);
 'ⓐⓑⓒ, ⓓⓔⓕ! ⓖⓗⓘ: ①②③ ⒿⓀⓁ'
 ```
 
