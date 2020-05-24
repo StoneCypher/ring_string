@@ -1,0 +1,36 @@
+{
+  "name": "ring_string",
+  "version": "0.1.0",
+  "description": "Convert [a-zA-Z0-9] in a string to their Unicode ring counterparts",
+  "main": "dist/es6/rs.js",
+  "scripts": {
+    "typescript": "tsc --build tsconfig.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoneCypher/ring_string.git"
+  },
+  "keywords": [
+    "ring",
+    "string",
+    "ring-string",
+    "ring_string",
+    "unicode",
+    "testing",
+    "internationalization",
+    "i18n",
+    "localization",
+    "l10n"
+  ],
+  "author": "John Haugeland <stonecypher@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoneCypher/ring_string/issues"
+  },
+  "homepage": "https://github.com/StoneCypher/ring_string#readme",
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "typescript": "^3.9.3"
+  }
+}
