@@ -1,6 +1,6 @@
 {
   "name": "ring_string",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Convert [a-zA-Z0-9] in a string to their Unicode ring counterparts",
   "main": "dist/es6/rs.js",
   "scripts": {
