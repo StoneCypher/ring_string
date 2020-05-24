@@ -43,9 +43,25 @@ This way, since English is my definitive language, all I have to do is switch to
 
 Also, this means that tooling like [playwright](https://github.com/microsoft/playwright) can look for missing things with regular expressions, so I can make a robot do it for me.  (Admittedly, that needs more tooling which is specific to your i18n kit, so I wrote [react-intl-miniparse](https://github.com/StoneCypher/react-intl-miniparse) also.)
 
+
+
+
+
+<br/><br/>
+
+## How does that help?
+
+Sometimes an image (or two, here) speaks a thousand words.
+
+Spot the paragraph missing a translation.
+
 <table>
   <tr>
-    <td valign="top">![](./src/image%20webpage%20source/english%20screenshot.png)</td>
-    <td valign="top">![](./src/image%20webpage%20source/translated%20with%20error%20screenshot.png)</td>
+    <td valign="top">
+      <img src="./src/image%20webpage%20source/english%20screenshot.png">
+    </td>
+    <td valign="top">
+      <img src="./src/image%20webpage%20source/translated%20with%20error%20screenshot.png">
+    </td>
   </tr>
 </table>
