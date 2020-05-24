@@ -53,7 +53,8 @@ Also, this means that tooling like [playwright](https://github.com/microsoft/pla
 
 Sometimes an image (or two, here) speaks a thousand words.
 
-Spot the paragraph missing a translation.
+
+### Spot the paragraph missing a translation.
 
 <table>
   <tr>
