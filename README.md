@@ -15,7 +15,7 @@ $ node
 Welcome to Node.js v13.6.0.
 Type ".help" for more information.
 
-> const rs = require('./rs.js');
+> const rs = require('ring_string');
 undefined
 
 > rs.to_rings('abc, def');
