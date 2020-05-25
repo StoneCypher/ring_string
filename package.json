@@ -1,12 +1,13 @@
 {
   "name": "ring_string",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Convert [a-zA-Z0-9] in a string to their Unicode ring counterparts",
-  "main": "dist/es6/rs.js",
+  "main": "dist/es6/rs.min.js",
   "scripts": {
+    "terser": "terser dist/es6/rs.js > dist/es6/rs.min.js && rm dist/es6/rs.js",
     "typescript": "tsc --build tsconfig.json",
     "clean": "rimraf -f dist/",
-    "build": "npm run clean && npm run typescript",
+    "build": "npm run clean && npm run typescript && npm run terser",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -33,6 +34,7 @@
   "homepage": "https://github.com/StoneCypher/ring_string#readme",
   "devDependencies": {
     "rimraf": "^3.0.2",
+    "terser": "^4.7.0",
     "typescript": "^3.9.3"
   }
 }
