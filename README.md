@@ -96,10 +96,10 @@ Sometimes an image (or two, here) speaks a thousand words.
 <table>
   <tr>
     <td valign="top">
-      <img src="./src/image%20webpage%20source/english%20screenshot.png">
+      <img src="https://raw.githubusercontent.com/StoneCypher/ring_string/master/src/image%20webpage%20source/english%20screenshot.png">
     </td>
     <td valign="top">
-      <img src="./src/image%20webpage%20source/translated%20with%20error%20screenshot.png">
+      <img src="https://raw.githubusercontent.com/StoneCypher/ring_string/master/src/image%20webpage%20source/translated%20with%20error%20screenshot.png">
     </td>
   </tr>
 </table>
